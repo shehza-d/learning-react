@@ -60,3 +60,12 @@ yup is a validation library
 full proper signup ka form formik ky sath
 
 
+26-oct-2022
+d/b forEach and .map
+
+
+
+
+
+
+
