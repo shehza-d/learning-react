@@ -70,7 +70,7 @@ cloudanary
 DAM (digital assets management)
 cloudnary is not recommanded without node server
 
-
+jis data per query lagani hy wo rakhty hyn database ma
 
 
 
