@@ -62,7 +62,13 @@ full proper signup ka form formik ky sath
 
 26-oct-2022
 d/b forEach and .map
+hook ma change aane se compnent change hoga
 
+28-oct-2022
+id get nhi karni react ma kabhi bhi
+cloudanary
+DAM (digital assets management)
+cloudnary is not recommanded without node server
 
 
 
