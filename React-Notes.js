@@ -72,6 +72,12 @@ cloudnary is not recommanded without node server
 
 jis data per query lagani hy wo rakhty hyn database ma
 
-
-
+04-Nov-2022
+React Router 6
+use useBrowerRouter
+provider (ye nesting hoti hy)
+dont use hash URL
+firebase auth
+H.W (twitter per login signup page bana hy )
+formik file handle
 
