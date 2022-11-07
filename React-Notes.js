@@ -81,3 +81,8 @@ firebase auth
 H.W (twitter per login signup page bana hy )
 formik file handle
 
+07-Nov-2022
+
+difrent bt SDK and library 
+autoComplete 
+on refers to event(onAuthStateChanged)
