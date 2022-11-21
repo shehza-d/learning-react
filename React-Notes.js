@@ -86,3 +86,20 @@ formik file handle
 difrent bt SDK and library 
 autoComplete 
 on refers to event(onAuthStateChanged)
+
+21-Nov-2022
+database ma ja kar data dekhni ki zaroorat nhi parni chiye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
