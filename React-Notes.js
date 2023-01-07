@@ -92,11 +92,12 @@ database ma ja kar data dekhni ki zaroorat nhi parni chiye
 
 //Tezeract
 07-Jan-2023
-//maxwell marchweller course
+//maxwell marchweller course(Acade Mind(youtube))
 state change hone per virtual DOM update hota ya saruf wo component ?
-kya import react purana syntax hy (kyu ky ab react tw globally imported hoti hyna by default)
-
-
+saruf ho component rerender hota hy
+kya import react purana syntax hy (kyu ky ab react tw globally imported hoti hyna by default)[we can test this by calling React.useState() with importing react]
+use the Handler convention in React like const clickHandler=()=>//logic
+form submit per page kyu reload hota hy (browser automatically sends a request whenever a form is submitted to the server which is hosting this page)
 
 
 
