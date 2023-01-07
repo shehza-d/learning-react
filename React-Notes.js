@@ -90,8 +90,11 @@ on refers to event(onAuthStateChanged)
 21-Nov-2022
 database ma ja kar data dekhni ki zaroorat nhi parni chiye
 
-
-
+//Tezeract
+07-Jan-2023
+//maxwell marchweller course
+state change hone per virtual DOM update hota ya saruf wo component ?
+kya import react purana syntax hy (kyu ky ab react tw globally imported hoti hyna by default)
 
 
 
