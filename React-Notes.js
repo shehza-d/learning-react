@@ -3,8 +3,7 @@ React Default Cmts
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
-
-
+test
 
 //json placeholder
 //jo chez state variable ma ho gyi wohi display ho gyi aur kuxh bhi display nhi hoga
