@@ -99,7 +99,9 @@ use the Handler convention in React like const clickHandler=()=>//logic
 form submit per page kyu reload hota hy (browser automatically sends a request whenever a form is submitted to the server which is hosting this page)
 
 
-
+09-Jan-2023
+AcadeMind
+kya react package globally install hota hy?
 
 
 
