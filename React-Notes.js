@@ -120,7 +120,7 @@ key ma index nhi deni chiye (agar new item add hoga aur previous item edit ho rh
 {dataArr.length===0 && <p>NO Data found</p>} is this called abusing in JS
 dono condition true ho gyi tw true mana jaye ga 
 1st condition true hui tw 2nd expression return kar diya jaye ga 
-
+what is a datapoint 
 
 
 
