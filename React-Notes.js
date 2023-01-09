@@ -117,6 +117,9 @@ key ma index nhi deni chiye (agar new item add hoga aur previous item edit ho rh
 {if and for loop and long statements are not allowed in return jsx{}}
 
 
+{dataArr.length===0 && <p>NO Data found</p>} is this called abusing in JS
+dono condition true ho gyi tw true mana jaye ga 
+1st condition true hui tw 2nd expression return kar diya jaye ga 
 
 
 
