@@ -129,6 +129,7 @@ CSS Modules(i love this approach)
 page.module.css
 import styles from './page.module.css'
 <div className={`${styles['form-control']} ${!isValid}&&styles.invalid`}></div>
+module css ma css ki files ky name similar ho tw?
 MUI recommendation by tezer (MUI is responsive)
 So how you can find and fix errors,
 
