@@ -2,6 +2,8 @@
 
 # dependencies
 node_modules
+01.first-react-app/node_modules
+02.learning-react-acadeMind/node_modules
 03.add-user-practice-project/node_modules
 
 /node_modules
