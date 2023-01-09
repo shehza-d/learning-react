@@ -126,8 +126,259 @@ WAYS_TO_STYLE_REACT
 Styled components(library)==i don't like it
 attacked template literal (styled.button``)
 CSS Modules(i love this approach)
+page.module.css
+import styles from './page.module.css'
+<div className={`${styles['form-control']} ${!isValid}&&styles.invalid`}></div>
 MUI recommendation by tezer (MUI is responsive)
+So how you can find and fix errors,
 
+because that's one of the most important things
+you need to be able to do as a developer,
+it's often overlooked and I see way too many developers
+or all the students in my courses
+that simply ask immediately that they get an error,
+they immediately look for others to help them
+and that's the wrong approach,
+you need to be able to find and solve errors on your own
+because errors will always be a part of development.
+Therefore in this module,
+we will explore how you can make sense of the error messages
+React froze at you in certain circumstances,
+we will learn how we can debug
+and analyze React apps in general,
+how we can understand our code whilst it's executing,
+and we'll explore the React Dev Tools,
+an extra extension we can install in the browser
+to get a better React developer experience.
+
+
+And that is a common thing.
+
+
+
+14
+
+00:00:44,450 --> 00:00:48,290
+
+Sometimes when you're writing code, you get errors.
+
+
+
+15
+
+00:00:48,290 --> 00:00:50,870
+
+Errors which React catches
+
+
+
+
+16
+
+00:00:50,870 --> 00:00:55,870
+
+or the React development process catches and froze at you.
+
+
+
+17
+
+00:00:56,620 --> 00:00:59,650
+
+And as I mentioned before, often
+
+
+
+18
+
+00:00:59,650 --> 00:01:02,790
+
+in the Q and A section of my courses, for example
+
+
+
+19
+
+00:01:02,790 --> 00:01:05,250
+
+I see students who immediately panic,
+
+
+
+20
+
+00:01:05,250 --> 00:01:06,870
+
+when they see an error message,
+
+
+
+21
+
+00:01:06,870 --> 00:01:09,380
+
+and they don't read it themselves.
+
+
+
+22
+
+00:01:09,380 --> 00:01:12,180
+
+They don't try to solve it themselves.
+
+
+
+23
+
+00:01:12,180 --> 00:01:15,530
+
+Instead, they immediately create a new thread
+
+
+
+24
+
+00:01:15,530 --> 00:01:17,310
+
+and ask for help.
+
+
+
+25
+
+00:01:17,310 --> 00:01:19,380
+
+This will not help you as a developer.
+
+
+
+26
+
+00:01:19,380 --> 00:01:21,730
+
+This will not make you a better developer.
+
+
+
+27
+
+00:01:21,730 --> 00:01:24,780
+
+It will actually make you a worse developer.
+
+
+
+28
+
+00:01:24,780 --> 00:01:27,370
+
+You need to be able to understand
+
+
+
+29
+
+00:01:27,370 --> 00:01:29,820
+
+and solve errors on your own.
+
+
+
+30
+
+00:01:29,820 --> 00:01:33,450
+
+
+So don't panic, read error messages,
+
+
+
+
+
+122
+
+
+00:05:58,470 --> 00:06:01,290
+
+
+have a look at the line or the file it's coming from,
+
+
+
+
+
+123
+
+
+00:06:01,290 --> 00:06:03,900
+
+
+have a look at the code snippet it might be showing you
+
+
+
+
+
+124
+
+
+00:06:03,900 --> 00:06:07,270
+
+
+and then look at the problematic code part,
+
+
+
+
+
+125
+
+
+00:06:07,270 --> 00:06:09,340
+
+
+at the problematic code snippet.
+
+
+
+
+
+126
+
+
+00:06:09,340 --> 00:06:10,940
+
+
+Look at the error message,
+
+
+
+
+
+127
+
+
+00:06:10,940 --> 00:06:14,150
+
+
+connect the error message to the snippet it's pointing at,
+
+
+
+
+
+128
+
+
+00:06:14,150 --> 00:06:17,773
+
+
+and you will be able to solve most errors.
+
+
+SOURCES tab in chrome have call stack ,variable memory(breakPoints)
+React dev tools extension
 
 
 
