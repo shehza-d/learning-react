@@ -122,8 +122,11 @@ dono condition true ho gyi tw true mana jaye ga
 1st condition true hui tw 2nd expression return kar diya jaye ga 
 what is a datapoint 
 
-
-
+WAYS_TO_STYLE_REACT
+Styled components(library)==i don't like it
+attacked template literal (styled.button``)
+CSS Modules(i love this approach)
+MUI recommendation by tezer (MUI is responsive)
 
 
 
