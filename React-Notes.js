@@ -1,3 +1,4 @@
+/*
 React Default Cmts
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
@@ -102,9 +103,32 @@ form submit per page kyu reload hota hy (browser automatically sends a request w
 09-Jan-2023
 AcadeMind
 kya react package globally install hota hy?
+You can't use your custom components as wrappers around other components
+Composition
+web-vitals in default react app
+return React.createElement('div',{attributes:"here"},React.createElement('h1',{},"hello world")
+you can't return more then 1 thing from a function ()
+stateFull vs StateLess components
+StateLess or dumb or presentational component are if they don't have any internal state (i.e static component)bahar se data aay ga andar sabkuxh static hy
+StateFull or smart component are ==
+.map kyu forEach kyu nhi 
+why each child in a list should have a unique "key" props
+key ma index nhi deni chiye (agar new item add hoga aur previous item edit ho rha hua tw conflict aaye ga)
+{if and for loop and long statements are not allowed in return jsx{}}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+*/
