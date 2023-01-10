@@ -6,13 +6,13 @@ import UserList from "./components/userList";
 
 function App() {
   const [userDataObj, setUserDataObj] = useState([]);
-  console.log(userDataObj);
+  // console.log(userDataObj);
 
   return (
     <div className="App">
       <Model />
       <Form setUserDataObj={setUserDataObj} />
-      <UserList />
+      <UserList userDataObj={userDataObj}/>
     </div>
   );
 }
