@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./form.module.css";
 
-export default function Form() {
+export default function Form(props) {
   // export default const Form=()=>{//why is this not allowed
 
   const [userName, setUserName] = useState(null);
@@ -9,8 +9,12 @@ export default function Form() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    console.log(userName, userAge);
+
+    if (!userName || !userAge) return console.log("Please enter Data!");
+
+    props.setUserDataObj((prev) => [...prev, { userName, userAge }]);
   };
+
   return (
     <>
       <h1>Add Users</h1>
