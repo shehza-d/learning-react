@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import styles from"./App.module.css";
 import Form from "./components/form";
 import Model from "./components/model";
 import UserList from "./components/userList";
