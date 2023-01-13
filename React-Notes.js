@@ -294,4 +294,23 @@ before it runs, except for the very first time when it runs, this cleanup functi
 And in addition, the cleanup function will run whenever the component you're specifying the effect in unmounts from the DOM.
 So whenever the component is reused So the cleanup function runs before every new side effect function execution
 and before the component is removed. And it does not run before the first side effect function execution.
+
+we can use useEffect without dependency array to run every time the state changes something after every component is rendered
+
+setState(should not depend on another state)
+
+postMark to send emails
+need a verified domain
+need email client with same domain name
+mail send verified email se hi hoga
+mail hum SMTP protocol se bhi bhaj sagty hyn aur REST API se bhi
+mail ma hum text bhi bhaj sagty hyn aur html body bhi (dono ma se koi ak)
+mail template ki html ma JS nhi lagti koi external link nhi lag sagty 
+whatsapp ka ye system hy ky docker ka ak server banta hy(jo msg kare gye wo server per aay gye (P2P))
+
+
+
+
+
+
 */
