@@ -154,125 +154,20 @@ to get a better React developer experience.
 
 
 And that is a common thing.
-
-
-
-14
-
-00:00:44,450 --> 00:00:48,290
-
 Sometimes when you're writing code, you get errors.
-
-
-
-15
-
-00:00:48,290 --> 00:00:50,870
-
 Errors which React catches
-
-
-
-
-16
-
-00:00:50,870 --> 00:00:55,870
-
 or the React development process catches and froze at you.
-
-
-
-17
-
-00:00:56,620 --> 00:00:59,650
-
 And as I mentioned before, often
-
-
-
-18
-
-00:00:59,650 --> 00:01:02,790
-
 in the Q and A section of my courses, for example
-
-
-
-19
-
-00:01:02,790 --> 00:01:05,250
-
 I see students who immediately panic,
-
-
-
-20
-
-00:01:05,250 --> 00:01:06,870
-
 when they see an error message,
-
-
-
-21
-
-00:01:06,870 --> 00:01:09,380
-
 and they don't read it themselves.
-
-
-
-22
-
-00:01:09,380 --> 00:01:12,180
-
 They don't try to solve it themselves.
-
-
-
-23
-
-00:01:12,180 --> 00:01:15,530
-
 Instead, they immediately create a new thread
-
-
-
-24
-
-00:01:15,530 --> 00:01:17,310
-
 and ask for help.
-
-
-
-25
-
-00:01:17,310 --> 00:01:19,380
-
 This will not help you as a developer.
-
-
-
-26
-
-00:01:19,380 --> 00:01:21,730
-
 This will not make you a better developer.
-
-
-
-27
-
-00:01:21,730 --> 00:01:24,780
-
 It will actually make you a worse developer.
-
-
-
-28
-
-00:01:24,780 --> 00:01:27,370
 
 You need to be able to understand
 
@@ -386,10 +281,17 @@ React dev tools extension
 props.children ???
 Number(input) can be replaced with +input
 react ma forEach nhi lag sagta kyu ky jab expression evaluate hoga tw wo JSX return nhi kare ga
+Controlled and uncontrolled components 
+useEffect ma asyncness
+debouncing technique (make sure we are not doing something on every key stroke (specilly network request)(we measure time if(inactivity==500ms || on every 3 word count)))
+# [clean-up function] return statement in useEffect (idher saruf function return hoga)
+phali bar useEffect ki execution ma cleanup nhi chale ga 
+jab bhi agar 2nd time useEffect ne execute hoga ho usse phale ak bar cleanup chale ga phir main useEffect content chale ga 
 
-
-
-
-
-
+This will run as a cleanup process before useEffect executes this function the next time.
+So to make it clear when this runs, whenever this useEffect function runs,
+before it runs, except for the very first time when it runs, this cleanup function will run.
+And in addition, the cleanup function will run whenever the component you're specifying the effect in unmounts from the DOM.
+So whenever the component is reused So the cleanup function runs before every new side effect function execution
+and before the component is removed. And it does not run before the first side effect function execution.
 */
