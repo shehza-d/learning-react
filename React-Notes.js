@@ -382,7 +382,10 @@ SOURCES tab in chrome have call stack ,variable memory(breakPoints)
 React dev tools extension
 
 
-
+13-Jan-2023
+props.children ???
+Number(input) can be replaced with +input
+react ma forEach nhi lag sagta kyu ky jab expression evaluate hoga tw wo JSX return nhi kare ga
 
 
 
