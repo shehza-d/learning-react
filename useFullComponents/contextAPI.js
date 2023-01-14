@@ -1,6 +1,21 @@
-import React, { createContext, useReducer } from 'react'
-import { reducer } from './Reducer';
+import { createContext, useReducer } from 'react'
+import { reducer } from './Reducer_file_path';
+import { BrowserRouter } from "react-router-dom";
+import ContextProvider from "./context/Context_file_path"
 
+//wrapper
+//   <React.StrictMode>
+//     <ContextProvider>
+//       <BrowserRouter>
+//         <App />
+//       </BrowserRouter>
+//     </ContextProvider>
+//   </React.StrictMode>
+//wrapper
+
+
+
+//this global context is object{} that contains components
 export const GlobalContext = createContext("Initial Value");
 
 let data = {
