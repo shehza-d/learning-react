@@ -308,9 +308,12 @@ mail ma hum text bhi bhaj sagty hyn aur html body bhi (dono ma se koi ak)
 mail template ki html ma JS nhi lagti koi external link nhi lag sagty 
 whatsapp ka ye system hy ky docker ka ak server banta hy(jo msg kare gye wo server per aay gye (P2P))
 
+14-Jan-2023
+alian Destructring 
+const { isValid: emailIsValid } = emailState;
+const { isValid: pswdIsValid } = pswdState;
 
-
-
+JS don't give us Debouncing and throtaling  it is achived by setTimeout(webAPI)
 
 
 */
