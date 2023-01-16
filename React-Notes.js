@@ -315,5 +315,24 @@ const { isValid: pswdIsValid } = pswdState;
 
 JS don't give us Debouncing and throtaling  it is achived by setTimeout(webAPI)
 
+16-Jan-2023
+useEffect runs after the component is rendered 
+useEffect dependancy array se chalta hy but kya usky change hone se component rerender hota hy
+useRef is like querrySelector (it is avaliable on every html element in JSX)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
