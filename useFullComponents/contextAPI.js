@@ -3,7 +3,7 @@ import { reducer } from './Reducer_file_path';
 import { BrowserRouter } from "react-router-dom";
 import ContextProvider from "./context/Context_file_path"
 
-//wrapper
+//wrapper//we need context first to determine the routes
 //   <React.StrictMode>
 //     <ContextProvider>
 //       <BrowserRouter>
@@ -19,6 +19,7 @@ import ContextProvider from "./context/Context_file_path"
 export const GlobalContext = createContext("Initial Value");
 
 let data = {
+  testing:"context is working globally",
   darkTheme: true,
   user: {},
   isLogin: null,

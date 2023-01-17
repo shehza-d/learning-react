@@ -320,9 +320,12 @@ useEffect runs after the component is rendered
 useEffect dependancy array se chalta hy but kya usky change hone se component rerender hota hy
 useRef is like querrySelector (it is avaliable on every html element in JSX)
 
+17-jan
+component ky folder ma reusable components aaty hyn 
+pages ma puray page aur unky specific non-reusable components
+MUI v1-4 is mui/core and later version are @mui/material
 
-
-
+typography ma varient is for style it as like h3 and component is for symantic output like h1
 
 
 
