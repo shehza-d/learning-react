@@ -330,9 +330,11 @@ typography ma varient is for style it as like h3 and component is for symantic o
 
 
 
-
-
-
+26-Jan-2023
+<NarLink > from react-router-dom (for active class in navbar)
+ navigate("/welcome", { replace: true });  for disabling back to specific page
+nested route ky link ma forward / nhi dalna
+https://youtube.com/playlist?list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG
 
 
 
