@@ -336,7 +336,9 @@ typography ma varient is for style it as like h3 and component is for symantic o
 nested route ky link ma forward / nhi dalna
 https://youtube.com/playlist?list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG
 
-
+27-Jan-2023
+lazy loading in react to load some routers later and save initial bundle size
+https://youtu.be/MJn4W7pR6RU
 
 
 
