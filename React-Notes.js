@@ -260,13 +260,6 @@ Look at the error message,
 
 connect the error message to the snippet it's pointing at,
 
-
-
-
-
-00:06:14,150 --> 00:06:17,773
-
-
 and you will be able to solve most errors.
 
 
