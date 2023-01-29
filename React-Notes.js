@@ -264,9 +264,6 @@ connect the error message to the snippet it's pointing at,
 
 
 
-128
-
-
 00:06:14,150 --> 00:06:17,773
 
 
