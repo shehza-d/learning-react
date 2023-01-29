@@ -213,53 +213,9 @@ have a look at the line or the file it's coming from,
 have a look at the code snippet it might be showing you
 
 
-
-
-
-124
-
-
-00:06:03,900 --> 00:06:07,270
-
-
-and then look at the problematic code part,
-
-
-
-
-
-125
-
-
-00:06:07,270 --> 00:06:09,340
-
-
-at the problematic code snippet.
-
-
-
-
-
-126
-
-
-00:06:09,340 --> 00:06:10,940
-
-
+and then look at the problematic code part, at the problematic code snippet.
 Look at the error message,
-
-
-
-
-
-127
-
-
-00:06:10,940 --> 00:06:14,150
-
-
 connect the error message to the snippet it's pointing at,
-
 and you will be able to solve most errors.
 
 
